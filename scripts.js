@@ -34,4 +34,3 @@ button2.onclick = function(){
 
 // Set Overlay for first interaction
 overlayOn();
-//checking if properly logged in to github.
