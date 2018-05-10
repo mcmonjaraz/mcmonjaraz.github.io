@@ -2,7 +2,128 @@ html,body{
 	font-family: Arial;
 }
 
+p {
+	color: rgb(85,85,85);
+}
 
-p,h1{
+a {
+    color: rgb(85,85,85) ;
+}
+
+
+/* Add a black background color to the top navigation */
+#topnav {
+	position: fixed;
+	top: 3%;
+	left: 1%;
+  background-color: rgb(44,184,194);
+	/* margin: 1%; */
+	width: 98%;
+  /* overflow: hidden; */
+}
+
+
+/* Style the links inside the navigation bar */
+#topnav button {
+	border: 0px;
+  float: left;
+  background-color: rgb(44,184,194);
+	margin-left: 4%;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+	transition: 0.4s;
+}
+
+#topnav button:focus{
+		outline:0;
+}
+
+/* Change the color of links on hover */
+#topnav button:hover {
+	font-size: 19px;
+}
+
+.title {
+	padding-left: 5%;
+	font-size: 40px;
+}
+
+.sub-title1{
+	padding-left: 5%;
+	font-size: 28px;
+}
+
+.sub-title2{
+	padding-left: 5%;
+	font-size: 25px;
+}
+
+.regularTxt {
+	padding-left: 5%;
+	padding-right: 37%;
+	font-size: 18px;
+	line-height: 1.8;
+	margin-bottom: 8%;
+}
+
+#overlayTxt {
+	color: rgb(250,250,255);
+	padding: 3%;
+	position: relative;
 	text-align: center;
+	line-height: 100px;
+	margin-left: 50%;
+	margin-top: 35%;
+	display: block;
+	font-size: 40px;
+	width: 15em;
+	z-index: 1;
+}
+
+#overlay {
+	position: fixed;
+	opacity: 1;
+}
+
+#background {
+	display: none;
+	opacity: 1;
+}
+
+#backgroundImg {
+	position: fixed; /* Sit on top of the page content */
+	display: block; /* Hidden by default */
+	opacity: 0.5;
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	cursor: pointer; /* Add a pointer on hover */
+	z-index: -1;
+
+}
+
+
+#overlayImg {
+	position: fixed; /* Sit on top of the page content */
+	display: block;; /* Hidden by default */
+	opacity: 1;
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+
+}
+
+#title1 {
+	margin-top: 150px;
 }
